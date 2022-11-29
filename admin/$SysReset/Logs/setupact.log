@@ -1,0 +1,191 @@
+﻿2022-10-05 00:14:03, Info                         LogSession: Starting a new log session at [C:\$SysReset\Logs]
+2022-10-05 00:14:03, Info                         Registry: Loading SOFTWARE hive from online OS
+2022-10-05 00:14:03, Info                         ResetCreateSession: Succeeded
+2022-10-05 00:14:03, Info                         OnlineUI: Reset session created successfully
+2022-10-05 00:14:13, Info                         OnlineUI: Check Reset Disable Flag
+2022-10-05 00:14:13, Info                         Session: Checking main OS for a test ID
+2022-10-05 00:14:13, Info                         Telemetry: Checking [C:] for a test ID
+2022-10-05 00:14:13, Info                         Registry: Loading SOFTWARE hive from online OS
+2022-10-05 00:14:13, Info                         Telemetry: No test ID present
+2022-10-05 00:14:13, Info                         Session: Reading system configuration
+2022-10-05 00:14:13, Info                         SenseContext: Opening system BCD
+2022-10-05 00:14:13, Info                         SenseContext: Reading WinRE config
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] Enter WinReGetConfig
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] Parameters: configWinDir: NULL
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] WinRE config file path: C:\windows\system32\Recovery\ReAgent.xml
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] Update enhanced config info is enabled.
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] WinRE is installed
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] WinRE is installed at: \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] Wim dir location: \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] System is WimBoot: FALSE
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] WinRE image validated
+2022-10-05 00:14:13, Info                         [SystemSettingsAdminFlows.exe] Exit WinReGetConfig return value: 1, last error: 0x0
+2022-10-05 00:14:13, Info                         SenseContext: Checking whether the target OS [C:\] is accessible ...
+2022-10-05 00:14:13, Info                         SenseContext: Target is accessible, will load registry hives
+2022-10-05 00:14:13, Info                         SenseContext: Loading target SOFTWARE hive
+2022-10-05 00:14:13, Info                         Registry: Loading SOFTWARE hive from online OS
+2022-10-05 00:14:13, Info                         SenseContext: Loading target SYSTEM hive
+2022-10-05 00:14:13, Info                         Registry: Loading SYSTEM hive from online OS
+2022-10-05 00:14:13, Info                         SenseContext: Loaded
+2022-10-05 00:14:13, Info                         SystemInfo: Reading BCD settings
+2022-10-05 00:14:13, Info                         SystemInfo: Locating the boot device
+2022-10-05 00:14:13, Info                         SystemInfo: Getting firmware info
+2022-10-05 00:14:13, Info                         SystemInfo: Reading host version number
+2022-10-05 00:14:13, Info                         SystemInfo: Searching for migration XML
+2022-10-05 00:14:13, Info                         SystemInfo: Reading power configuration
+2022-10-05 00:14:13, Info                         SystemInfo: Checking whether target OS volume is accessible ...
+2022-10-05 00:14:13, Info                         SystemInfo: The target OS volume is accessible
+2022-10-05 00:14:13, Info                         SystemInfo: Checking if narrator auto start reg key turned on
+2022-10-05 00:14:13, Info                         SystemInfo: Detecting target BitLocker state
+2022-10-05 00:14:13, Info                         SystemInfo: Checking whether target is healthy
+2022-10-05 00:14:13, Info                         SystemInfo: Reading target build information
+2022-10-05 00:14:13, Warning                      0x80070002 in PbrGetOSMetadata (base\reset\engine\scenario\src\sensetargetos.cpp:406): Failed to read Compact value from target OS, assuming not compact
+2022-10-05 00:14:13, Info                         SystemInfo: Reading target's reset policy flags
+2022-10-05 00:14:13, Info                         SystemInfo: Searching target for OEM extensibility
+2022-10-05 00:14:13, Warning                      0x80070002 in PushButtonReset::WofOverlay::EnumOverlays (base\reset\util\src\wofoverlay.cpp:64): WofEnumEntries failed, assuming no overlays on volume [\\?\Volume{3835c0f0-b7b0-4773-a458-09d1fca5e155}]
+2022-10-05 00:14:13, Warning                      0x80070002 in PushButtonReset::WofOverlay::EnumOverlays (base\reset\util\src\wofoverlay.cpp:64): WofEnumEntries failed, assuming no overlays on volume [\\?\Volume{3835c0f0-b7b0-4773-a458-09d1fca5e155}]
+2022-10-05 00:14:13, Info                         SystemInfo: Checking whether target OS is Signature Edition ...
+2022-10-05 00:14:13, Error                        0x80070002 in PushButtonReset::RegKey::HasValue (base\reset\util\src\registry.cpp:187): Failed to load subkey at [Microsoft\Windows\Signature][gle=0x00000002]
+2022-10-05 00:14:13, Info                         SystemInfo: Get reconstruction version from registry key
+2022-10-05 00:14:13, Error                        0x80070002 in PbrGetRestoreToBaselineVal (base\reset\engine\scenario\src\sensetargetos.cpp:63): Does not find registry key of PushButtonReset[gle=0x00000002]
+2022-10-05 00:14:13, Info                         SystemInfo: Failed to get the reconstruction version from registry key. Use Latest as default.
+2022-10-05 00:14:13, Info                         SystemInfo: RestoreToBaseline [False]
+2022-10-05 00:14:13, Info                         SystemInfo: Detecting Team OS
+2022-10-05 00:14:13, Info                         Registry: Loading SOFTWARE hive from online OS
+2022-10-05 00:14:13, Info                         SystemInfo: Detecting Windows-to-Go
+2022-10-05 00:14:13, Info                         SystemInfo: Locating WinRE
+2022-10-05 00:14:13, Info                         SystemInfo: Detecting current WinRE's build number
+2022-10-05 00:14:13, Info                         SystemInfo: Detecting Narrator Running
+2022-10-05 00:14:13, Warning                      IsNarratorRunning: Error finding window NarratorUIClass; HR = 0x80070002
+2022-10-05 00:14:13, Warning                      0x80070002 in PbrSenseNarrator (base\reset\engine\scenario\src\sensemisc.cpp:321): Failed to query whether narrator is running
+2022-10-05 00:14:13, Info                         Session: Finished reading SystemInfo
+2022-10-05 00:14:13, Info                         -- Begin SystemInfo dump
+2022-10-05 00:14:13, Info                            [PowerSourceIsUnreliable]: [False]
+2022-10-05 00:14:13, Info                            [HostVersionMajor]: [10]
+2022-10-05 00:14:13, Info                            [HostVersionMinor]: [0]
+2022-10-05 00:14:13, Info                            [HostBuild]: [19041]
+2022-10-05 00:14:13, Info                            [BootLocale]: [en-US]
+2022-10-05 00:14:13, Info                            [BootTimeout]: [30]
+2022-10-05 00:14:13, Info                            [BootVolume]: [C:\]
+2022-10-05 00:14:13, Info                            [BootDrive]: [C]
+2022-10-05 00:14:13, Info                            [SecureBootEnabled]: [True]
+2022-10-05 00:14:13, Info                            [IsTeamOS]: [False]
+2022-10-05 00:14:13, Info                            [IsWindowsToGo]: [False]
+2022-10-05 00:14:13, Info                            [IsSafeMode]: [False]
+2022-10-05 00:14:13, Info                            [IsWindowsPE]: [False]
+2022-10-05 00:14:13, Info                            [RamdiskDevice]: []
+2022-10-05 00:14:13, Info                            [RamdiskVolumeRoot]: []
+2022-10-05 00:14:13, Info                            [RamdiskPath]: []
+2022-10-05 00:14:13, Info                            [WinREAvailable]: [True]
+2022-10-05 00:14:13, Info                            [WinREVolumeRoot]: [\\?\Volume{6b37c37a-1b6b-4117-80c3-fbd61db50a5d}\]
+2022-10-05 00:14:13, Info                            [WinREPath]: [\Recovery\WindowsRE\winre.wim]
+2022-10-05 00:14:13, Info                            [WinREBootEntry]: [{6FC887BF-E8E9-11EB-B22E-3C18A07129B2}]
+2022-10-05 00:14:13, Info                            [WinREVersionMajor]: [10]
+2022-10-05 00:14:13, Info                            [WinREVersionMinor]: [0]
+2022-10-05 00:14:13, Info                            [WinREBuild]: [19041]
+2022-10-05 00:14:13, Info                            [StagedWinREAvailable]: [False]
+2022-10-05 00:14:13, Info                            [StagedWinREPath]: []
+2022-10-05 00:14:13, Info                            [ArchivedWinREAvailable]: [False]
+2022-10-05 00:14:13, Info                            [ArchivedWinREPath]: []
+2022-10-05 00:14:13, Info                            [DownlevelWinREAvailable]: [False]
+2022-10-05 00:14:13, Info                            [DownlevelWinREVolumeRoot]: []
+2022-10-05 00:14:13, Info                            [DownlevelWinREPath]: []
+2022-10-05 00:14:13, Info                            [DownlevelWinREVersionMajor]: [0]
+2022-10-05 00:14:13, Info                            [DownlevelWinREVersionMinor]: [0]
+2022-10-05 00:14:13, Info                            [DownlevelWinREBuild]: [0]
+2022-10-05 00:14:13, Info                            [RecoveryImageAvailable]: [False]
+2022-10-05 00:14:13, Info                            [RecoveryImageVolumeRoot]: []
+2022-10-05 00:14:13, Info                            [RecoveryImagePath]: []
+2022-10-05 00:14:13, Info                            [RecoveryImageIndex]: [0]
+2022-10-05 00:14:13, Info                            [RecoveryImageReferencePaths]: [[0] items]
+2022-10-05 00:14:13, Info                            [RecoveryImageVersionMajor]: [0]
+2022-10-05 00:14:13, Info                            [RecoveryImageVersionMinor]: [0]
+2022-10-05 00:14:13, Info                            [RecoveryImageBuild]: [0]
+2022-10-05 00:14:13, Info                            [RecoveryImageEdition]: []
+2022-10-05 00:14:13, Info                            [RecoveryImageArchitecture]: [0]
+2022-10-05 00:14:13, Info                            [RecoveryImageOEMResetConfigPath]: []
+2022-10-05 00:14:13, Info                            [TargetAccessible]: [True]
+2022-10-05 00:14:13, Info                            [TargetInstallHealthy]: [True]
+2022-10-05 00:14:13, Info                            [TargetVolumeCapacity]: [406403940352]
+2022-10-05 00:14:13, Info                            [TargetSpaceRemaining]: [251691241472]
+2022-10-05 00:14:13, Info                            [TargetEncrypted]: [False]
+2022-10-05 00:14:13, Info                            [TargetEncryptionSuspended]: [False]
+2022-10-05 00:14:13, Info                            [TargetLocked]: [False]
+2022-10-05 00:14:13, Info                            [TargetVersionMajor]: [10]
+2022-10-05 00:14:13, Info                            [TargetVersionMinor]: [0]
+2022-10-05 00:14:13, Info                            [TargetBuild]: [19041]
+2022-10-05 00:14:13, Info                            [TargetRevision]: [2075]
+2022-10-05 00:14:13, Info                            [TargetBuildBranch]: [vb_release]
+2022-10-05 00:14:13, Info                            [TargetCurrentBuild]: [19044]
+2022-10-05 00:14:13, Info                            [TargetBuildLab]: [19041.1.amd64fre.vb_release.191206-1406]
+2022-10-05 00:14:13, Info                            [TargetProductName]: [Windows 10 Home Single Language]
+2022-10-05 00:14:13, Info                            [TargetEdition]: [CoreSingleLanguage]
+2022-10-05 00:14:13, Info                            [TargetArchitecture]: [9]
+2022-10-05 00:14:13, Info                            [TargetInstallType]: [0]
+2022-10-05 00:14:13, Info                            [TargetHasRedirectedProfiles]: [False]
+2022-10-05 00:14:13, Info                            [TargetCompact]: [False]
+2022-10-05 00:14:13, Info                            [TargetIsSignature]: [False]
+2022-10-05 00:14:13, Info                            [TargetRunsNarratorOnLogon]: [False]
+2022-10-05 00:14:13, Info                            [PolicyDisablesReset]: [False]
+2022-10-05 00:14:13, Info                            [PolicyDisableCleanPC]: [False]
+2022-10-05 00:14:13, Info                            [PolicyDisablesCustomizations]: [False]
+2022-10-05 00:14:13, Info                            [PolicyDisablesDriverMigration]: [False]
+2022-10-05 00:14:13, Info                            [PolicyDisablesReconstructToLatest]: [False]
+2022-10-05 00:14:13, Info                            [TargetHydratedProvPackages]: [[2] items]
+2022-10-05 00:14:13, Info                            -> [0]: [C:\Recovery\Customizations\PPM-TGL-preview-v8.32-20H1.ppkg]
+2022-10-05 00:14:13, Info                            -> [1]: [C:\Recovery\Customizations\usmt.ppkg]
+2022-10-05 00:14:13, Info                            [TargetDehydratedProvPackages]: [[0] items]
+2022-10-05 00:14:13, Info                            [TargetProvPackageInstallOrder]: []
+2022-10-05 00:14:13, Info                            [TargetRuntimeProvPackages]: [[0] items]
+2022-10-05 00:14:13, Info                            [TargetOEMResetConfigPath]: [C:\Recovery\OEM\ResetConfig.xml]
+2022-10-05 00:14:13, Info                            [TargetOEMAutoApplyPath]: [C:\Recovery\AutoApply]
+2022-10-05 00:14:13, Info                            [RamdiskMigrationXML]: []
+2022-10-05 00:14:13, Info                            [TargetMigrationXML]: [C:\Windows\System32\srms.dat]
+2022-10-05 00:14:13, Info                            [TargetReprovisionMigrationXML]: [C:\Windows\System32\srms-apr-v.dat]
+2022-10-05 00:14:13, Info                            [IsRecoveryMediaBoot]: [False]
+2022-10-05 00:14:13, Info                            [MediaRoot]: []
+2022-10-05 00:14:13, Info                            [MediaImageRoot]: []
+2022-10-05 00:14:13, Info                            [MediaProvPackageRoot]: []
+2022-10-05 00:14:13, Info                            [MediaExtensibilityRoot]: []
+2022-10-05 00:14:13, Info                            [MediaAutoApplyRoot]: []
+2022-10-05 00:14:13, Info                            [MediaBootWimPath]: []
+2022-10-05 00:14:13, Info                            [MediaWinREPath]: []
+2022-10-05 00:14:13, Info                            [MediaDownlevelWinREPath]: []
+2022-10-05 00:14:13, Info                            [MediaOEMResetConfigPath]: []
+2022-10-05 00:14:13, Info                            [MediaAutoResetConfigPath]: []
+2022-10-05 00:14:13, Info                            [MediaRecoveryImageNames]: [[0] items]
+2022-10-05 00:14:13, Info                            [MediaComponentStoreImagePaths]: [[0] items]
+2022-10-05 00:14:13, Info                            [MediaProvPackageNames]: [[0] items]
+2022-10-05 00:14:13, Info                            [MediaProvPackageInstallOrder]: []
+2022-10-05 00:14:13, Info                            [MediaSingleInstancedProvPackages]: [[0] items]
+2022-10-05 00:14:13, Info                            [NarratorRunning]: [False]
+2022-10-05 00:14:13, Info                            [SystemDefaultEntry]: [{FCFE930C-E8E2-11EB-91F8-3C18A07129B2}]
+2022-10-05 00:14:13, Info                         -- End SystemInfo dump
+2022-10-05 00:14:13, Error                        0x800704c6 in ResetOnlineUI::GetNetworkCost (base\reliability\recovery\resetengonline\resetengine.cpp:40): Failed to get network cost from network cost manager.
+2022-10-05 00:14:13, Info                         OnlineUI: Validating scenario
+2022-10-05 00:14:13, Info                         ResetValidateScenario: Scenario: [0] Target: [C:]
+2022-10-05 00:14:13, Info                         Session: Returning cached system information
+2022-10-05 00:14:13, Info                         ResetValidateScenario: Supported: [Yes]
+2022-10-05 00:14:13, Info                         OnlineUI: Validation passed
+2022-10-05 00:14:13, Info                         Prepare list of GUID paths for non-OS data volumes
+2022-10-05 00:14:13, Info                         OnlineUI: Scanning for data volumes
+2022-10-05 00:14:13, Info                         ResetGetDataVolumes: Enumerating host machine data volumes
+2022-10-05 00:14:13, Info                         Session: Returning cached system information
+2022-10-05 00:14:16, Warning                      0x80070490 in PushButtonReset::TestFlag::Get (base\reset\engine\session\src\testflag.cpp:50): Test flag not set: [FormatExclude]
+2022-10-05 00:14:16, Info                         ResetDataVolumes: Found [0] data volume(s)
+2022-10-05 00:14:16, Info                         OnlineUI: Found [0] data volumes
+2022-10-05 00:14:16, Info                         ResetCleanPCBlocked: Determine whether device blocks CleanPC
+2022-10-05 00:14:16, Info                         Session: Returning cached system information
+2022-10-05 00:14:16, Info                         ResetHasCustomizations: Determine whether device has OEM customizations
+2022-10-05 00:14:16, Info                         Session: Returning cached system information
+2022-10-05 00:14:16, Info                         Has customizations: Found provisioning packages
+2022-10-05 00:14:16, Info                         OnlineUI: Determining if payload download is enabled
+2022-10-05 00:14:16, Info                         Onesettings: Querying Prod server
+2022-10-05 00:14:16, Warning                      Onesettings: Failed to Query Onesettings: 0x80072ee7
+2022-10-05 00:14:16, Warning                      Onesettings: Failed to initialize and query: 0x80072ee7
+2022-10-05 00:14:16, Info                         ResetPayloadEnabled: payload enabled [False]
+2022-10-05 00:14:16, Warning                      0x80072ee7 in CResetEngine::IsPayloadDownloadEnabled (base\reliability\recovery\resetengonline\resetengine.cpp:792): OnlineUI: Failed to determine if payload download is enabled
+2022-10-05 00:14:20, Info                         OnlineUI: User cancelled reset
+2022-10-05 00:14:20, Info                         ResetNotifyCancel: User canceled on page [OnlineResetTypeSelection]
+2022-10-05 00:14:21, Info                         OnlineUI: Releasing reset session
+2022-10-05 00:14:21, Info                         ResetReleaseSession: Releasing session

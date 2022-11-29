@@ -1,0 +1,3 @@
+﻿2022-10-05 00:14:13, Error                        0x80070002 in PushButtonReset::RegKey::HasValue (base\reset\util\src\registry.cpp:187): Failed to load subkey at [Microsoft\Windows\Signature][gle=0x00000002]
+2022-10-05 00:14:13, Error                        0x80070002 in PbrGetRestoreToBaselineVal (base\reset\engine\scenario\src\sensetargetos.cpp:63): Does not find registry key of PushButtonReset[gle=0x00000002]
+2022-10-05 00:14:13, Error                        0x800704c6 in ResetOnlineUI::GetNetworkCost (base\reliability\recovery\resetengonline\resetengine.cpp:40): Failed to get network cost from network cost manager.
